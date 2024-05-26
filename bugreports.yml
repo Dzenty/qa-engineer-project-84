@@ -1,0 +1,53 @@
+---
+- summary: |
+ Проверка предложений в выпадающем поисковом окне
+enviroment: |
+ Firefox 126.0 (64 бит)
+ Microsoft Windows [Version 10.0.19045.4412]
+steps-to-reproduce: |
+ - Открыть сайт https://hexlet-products-store.vercel.app/
+ - Ввести значение в поисковое поле
+expected-result: |
+ Появляется выпадающий список с результатом поиска
+actual-result: |
+ Не появляется выпадающий список с результатом поиска
+
+- summary: |
+ Не отображается флаг английского языка в выпадающем окне "язык"
+enviroment: |
+ Firefox 126.0 (64 бит)
+ Microsoft Windows [Version 10.0.19045.4412]
+steps-to-reproduce: |
+- Открыть сайт https://hexlet-products-store.vercel.app/
+- Нажать на кнопку "язык"
+expected-result: |
+ Есть картинка флага страны в выпадающем окне "язык"
+actual-result: |
+ Отсутствует флаг страны английского языка
+
+- summary: |
+ Не закрывается модальное окно заказа товара при нажатии на "X"
+enviroment: |
+ Firefox 126.0 (64 бит)
+ Microsoft Windows [Version 10.0.19045.4412]
+steps-to-reproduce: |
+- Добавить товар в корзину
+- Перейти в корзину с товарами
+- Нажать на кнопку "Оформить заказ"
+- Нажать на "Х" в открывшемся модальном окне
+expected-result: |
+ Закрывается окно при нажатии на "Х"
+actual-result: |
+ При нажатии на "Х" ничего не меняется
+
+- summary: |
+ Пустой чекбокс в списке "Производитель"
+enviroment: |
+ Firefox 126.0 (64 бит)
+ Microsoft Windows [Version 10.0.19045.4412]
+steps-to-reproduce: |
+- Открыть сайт https://hexlet-products-store.vercel.app/
+expected-result: |
+ Чекбокс подписан и товара фильтруются в соответсвии с выбранным производителем
+actual-result: |
+ Нет бренда в списке чекбосов
