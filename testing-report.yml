@@ -28,6 +28,9 @@ status: pass
 status: pass
 
 - summary: |
+ Проверка адаптивности сайта
+status: fail
+- summary: |
  Проверка кнопки "предыдущая" страница магазина
 status: pass
 
