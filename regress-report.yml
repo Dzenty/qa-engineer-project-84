@@ -1,0 +1,48 @@
+---
+test-cases:
+  - summary: |
+      Проверка адаптивности сайта
+    status: pass
+
+  - summary: |
+      Проверка кнопки выбора языка на сайте
+    status: pass
+ 
+  - summary: |
+      Проверка предложений в выпадающем поисковом окне
+    status: fail
+
+  - summary: |
+      Клик по логотипу сайта возвращает на главную страницу
+    status: pass
+
+  - summary: |
+      Клик по "Х" в разделе заказ закрывает модальное окно
+    status: fail
+
+
+bugreports:
+  - summary: |
+      Изображения товаров обрезаны
+    environment: |
+      Firefox 126.0 (64 бит)
+      Microsoft Windows [Version 10.0.19045.4412]
+    steps-to-reproduce: |
+      - Открыть сайт https://hexlet-products-store.vercel.app/
+    expected-result: |
+      Изображения товаров видно полностью
+    actual-result: |
+      Изображения товаров обрезаны
+
+  - summary: |
+      Изображения товаров в разделе описания товаров очень маленькие
+    environment: |
+      Firefox 126.0 (64 бит)
+      Microsoft Windows [Version 10.0.19045.4412]
+    steps-to-reproduce: |
+      - Открыть сайт https://hexlet-products-store.vercel.app/
+      - Кликнуть на изображению любого товара на сайте
+    expected-result: |
+      Изображения товаров "нормальных" размеров
+    actual-result: |
+      Изображения слишком маленькие
