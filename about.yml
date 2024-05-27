@@ -1,0 +1,17 @@
+---
+name: Rishat Gilt # ваше имя
+job: QA Engineer
+level: junior
+email: triangleorange01@gmail.com
+description: |
+  Трудолюбивый и усидчивый
+
+
+skills: # 
+  - функциональное тестирование
+  - написание багрепортов
+  - написание тест кейсов
+  - HTML/CSS
+  - Python/JS
+  - слепая печать
+  - английский язык C1
