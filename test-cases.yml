@@ -1,30 +1,30 @@
 ---
 - summary: Проверка предложений в выпадающем поисковом окне
-requirements: |
+requirements: 
  При вводе запроса в поисковое выпадают результаты поиска
 prerequisites:
  Открыта главная страница магазина
 steps:
 - Открыть сайт https://hexlet-products-store.vercel.app/
 - Ввести значение в поисковое поле
-expected-result: |
+expected-result: 
  Результат поиска начинается с искомой буквы
 
 - summary: Проверка фильтрации продукции на главной странице магазина
-requirements: |
+requirements: 
  Пользователь нажал на кнопку чекбокса в списке товаров
 prerequisites:
  Открыта главная страница магазина
 steps:
 - Открыть сайт https://hexlet-products-store.vercel.app/
 - Нажать на чекбос в списке доступных товаров
-expected-result: |
+expected-result: 
  Результат фильтрации отображается в соответствии с выбранным товаром
 
 - summary: Проверка предложений выпадающего окна "категории"
-requirements: |
+requirements: 
  При нажатии на кнопку "категории" появляется выпадающий список
-requirements: |
+requirements: 
  Пользователь нажал на кнопку "категории" на главной странице магазина
 prerequisites:
  Открыта главная страница магазина
@@ -32,11 +32,11 @@ steps:
 - Открыть сайт https://hexlet-products-store.vercel.app/
 - Нажать на кнопку "категории"
 - Выбрать любую из предоженных категорий
-expected-result: |
+expected-result: 
  При нажатии на кнопку "категории" появляется список
 
 - summary: Проверка Удаление продукта из корзины
-requirements: |
+requirements: 
  Пользователь нажал на кнопку удалить в корзине товаров
 prerequisites:
  Открыта главная страница магазина
@@ -45,89 +45,89 @@ steps:
 - Добавьте товар в "корзину"
 - Нажмите на значок "корзина"
 - Нажать на кнопку удалить
-expected-result: |
+expected-result: 
  Товар больше не отображается в корзине
 
 - summary: Проверка кнопки выбора языка на сайте
-requirements: |
+requirements: 
  Пользователь нажал на кнопку выбора языка на сайте
 prerequisites:
  Открыта любая из доспутных страниц магазина
 steps:
 - Нажать на кнопку "Language"
 - Выбрать язык в выпадающем окне
-expected-result: |
+expected-result: 
  Все названия кнопок на сайте меняют язык
 
 - summary: Проверка добавления товара в корзину
-requirements: |
+requirements: 
  Пользователь нажал на кнопку "В корзину" на главной странице магазина
 prerequisites:
  Открыта страница https://hexlet-products-store.vercel.app/
 steps:
 - Нажать на кнопку "В корзину"
 - Нажать на кнопку "cart"
-expected-result: |
+expected-result: 
  Товар успешно добавляется в корзину
 
 - summary: Проверка кнопки "следующая" страница магазина
-requirements: |
+requirements: 
  Пользователь нажал на кнопку "следующая"
 prerequisites:
  Открыта страница https://hexlet-products-store.vercel.app/
 steps:
 - Открыть главную страницу магазина
 - Нажать на кнопку "следующая"
-expected-result: |
+expected-result: 
  Переход на следующую страницу сайта с другими товарами
 
 
 - summary: Проверка кнопки "Предыдущая" страница магазина
-requirements: |
+requirements: 
  Пользователь нажал на кнопку "предыдущая"
 prerequisites:
  Открыта страница https://hexlet-products-store.vercel.app/
 steps:
 - Открыть главную страницу магазина
 - Нажать на кнопку "предыдущая"
-expected-result: |
+expected-result: 
  Переход на предыдущую страницу сайта товарами
 
 - summary: Проверка описания товара в корзине
-requirements: |
+requirements: 
  Пользователь добавил товар в корзину
 prerequisites:
  Нажать на кнопку "cart"
 steps:
 - Нажать на кнопку "cart"
 - Нажать на поле с названием товара
-expected-result: |
+expected-result: 
  Появляется описание товара
 
 - summary: Проверка фильтра "В наличии"
-requirements: |
+requirements: 
  Пользователь нажал на кнопку "В наличии"
 prerequisites:
  Открыта страница https://hexlet-products-store.vercel.app/
 steps:
 - Открыть главную страницу сайта
 - Нажать на кнопку "В наличии"
-expected-result: |
+expected-result: 
  Меняется результат поиска товара в соответствии с наличием товара
 
 - summary: Проверка фильтрации по ценовому диапозону
-requirements: |
+requirements: 
  Пользователь ввел значения для ценовой фильтрации товаров
 prerequisites:
  Открыта страница https://hexlet-products-store.vercel.app/
 steps:
 - Открыть главную страницу сайта
 - Ввести значения от и до в поле "Цена"
-expected-result: |
+expected-result: 
  Меняется результат поиска товара в соответствии с ценой
  
 - summary: Проверка адаптивности сайта
-requirements: |
+requirements: 
  Пользователь зашел на сайт через мобильное устройство
 prerequisites:
  Открыта страница https://hexlet-products-store.vercel.app/
@@ -135,17 +135,17 @@ steps:
 - Открыть главную страницу сайта
 - Открыть devtools(F12)
 - Выбрать режим адаптивного дизайна (Ctrl+shift+M)
-expected-result: |
+expected-result: 
  Элементы сайта подстраиваются под выбранное разрешение
 
 
 - summary: Проверка возможности возвращения на главную страницу сайта при нажатии на логотип
-requirements: |
+requirements: 
  Пользователь кликнул на логотип сайта
 prerequisites:
  Открыта корзина или описание товара
 steps:
 - Открыть корзину или описание товара
 - Кликнуть на логотип сайта
-expected-result: |
+expected-result: 
  Переход на главную страницу сайта
