@@ -1,7 +1,7 @@
 ---
 - summary: |
     Проверка предложений в выпадающем поисковом окне
-  enviroment: |
+  environment: |
     Firefox 126.0 (64 бит)
     Microsoft Windows [Version 10.0.19045.4412]
   steps-to-reproduce: |
@@ -14,7 +14,7 @@
 
 - summary: |
     Не отображается флаг английского языка в выпадающем окне "язык"
-  enviroment: |
+  environment: |
     Firefox 126.0 (64 бит)
     Microsoft Windows [Version 10.0.19045.4412]
   steps-to-reproduce: |
@@ -27,7 +27,7 @@
 
 - summary: |
     Не закрывается модальное окно заказа товара при нажатии на "X"
-  enviroment: |
+  environment: |
     Firefox 126.0 (64 бит)
     Microsoft Windows [Version 10.0.19045.4412]
   steps-to-reproduce: |
@@ -42,7 +42,7 @@
 
 - summary: |
     Пустой чекбокс в списке "Производитель"
-  enviroment: |
+  environment: |
     Firefox 126.0 (64 бит)
     Microsoft Windows [Version 10.0.19045.4412]
   steps-to-reproduce: |
@@ -54,7 +54,7 @@
 
 - summary: |
     Проверка возможности возвращения на главную страницу сайта при нажатии на логотип
-  enviroment: |
+  environment: |
     Firefox 126.0 (64 бит)
     Microsoft Windows [Version 10.0.19045.4412]
   steps-to-reproduce: |
