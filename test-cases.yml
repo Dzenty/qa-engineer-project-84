@@ -1,7 +1,7 @@
 ---
 - summary: |
     Проверка предложений в выпадающем поисковом окне
-  requirements: 
+  requirement: 
     При вводе запроса в поисковое выпадают результаты поиска
   prerequisites:
     Открыта главная страница магазина
@@ -15,7 +15,7 @@
 
 - summary: |
     Проверка фильтрации продукции на главной странице магазина
-  requirements: 
+  requirement: 
     Пользователь нажал на кнопку чекбокса в списке товаров
   prerequisites:
     Открыта главная страница магазина
@@ -29,7 +29,7 @@
 
 - summary: |
     Проверка предложений выпадающего окна "категории"
-  requirements: 
+  requirement: 
     При нажатии на кнопку "категории" появляется выпадающий список
   prerequisites:
     Открыта главная страница магазина
@@ -44,7 +44,7 @@
 
 - summary: | 
     Проверка Удаление продукта из корзины
-  requirements: 
+  requirement: 
    Пользователь нажал на кнопку удалить в корзине товаров
   prerequisites:
    Открыта главная страница магазина
@@ -60,7 +60,7 @@
 
 - summary: |
     Проверка кнопки выбора языка на сайте
-  requirements: 
+  requirement: 
     Пользователь нажал на кнопку выбора языка на сайте
   prerequisites:
     Открыта любая из доспутных страниц магазина
@@ -74,7 +74,7 @@
 
 - summary: |
     Проверка добавления товара в корзину
-  requirements: 
+  requirement: 
     Пользователь нажал на кнопку "В корзину" на главной странице магазина
   prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/
@@ -88,7 +88,7 @@
 
 - summary: | 
     Проверка кнопки "следующая" страница магазина
-  requirements: 
+  requirement: 
     Пользователь нажал на кнопку "следующая"
   prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/
@@ -103,7 +103,7 @@
 
 - summary: | 
     Проверка кнопки "Предыдущая" страница магазина
-  requirements: 
+  requirement: 
     Пользователь нажал на кнопку "предыдущая"
   prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/
@@ -117,7 +117,7 @@
 
 - summary: | 
     Проверка описания товара в корзине
-  requirements: 
+  requirement: 
     Пользователь добавил товар в корзину
   prerequisites:
     Нажать на кнопку "cart"
@@ -131,7 +131,7 @@
 
 - summary: |
     Проверка фильтра "В наличии"
-  requirements: 
+  requirement: 
     Пользователь нажал на кнопку "В наличии"
   prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/
@@ -145,7 +145,7 @@
 
 - summary: |
     Проверка фильтрации по ценовому диапозону
-  requirements: 
+  requirement: 
     Пользователь ввел значения для ценовой фильтрации товаров
   prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/
@@ -159,7 +159,7 @@
  
 - summary: | 
     Проверка адаптивности сайта
-  requirements: 
+  requirement: 
     Пользователь зашел на сайт через мобильное устройство
   prerequisites:
     Открыта страница https://hexlet-products-store.vercel.app/
@@ -175,7 +175,7 @@
 
 - summary: |
      Проверка возможности возвращения на главную страницу сайта при нажатии на логотип
-  requirements: 
+  requirement: 
      Пользователь кликнул на логотип сайта
   prerequisites:
      Открыта корзина или описание товара
